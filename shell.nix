@@ -21,6 +21,7 @@ pkgs.mkShell {
     pkgs.gradle_8
     pkgs.go # builds restic and the ssh helper (scripts/build-native.sh)
     pkgs.git
+    pkgs.gh # scripts/release.sh publishes the GitHub release
     pkgs.android-tools
     pkgs.fish
     android.androidsdk
