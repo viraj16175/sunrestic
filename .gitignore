@@ -1,0 +1,15 @@
+.gradle/
+build/
+app/build/
+local.properties
+result
+app/src/main/jniLibs/
+.idea/
+*.iml
+keystore.properties
+*.jks
+*.keystore
+v1-full-source.tar.gz
+*.tar.gz
+dist/
+/*.png

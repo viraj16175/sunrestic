@@ -1,0 +1,9 @@
+Sunrestic
+Copyright 2026 Sunrestic contributors
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This app bundles and runs these programs (built from their source by flake.nix):
+  - restic (BSD 2-Clause License), https://restic.net
+  - OpenSSH (BSD-style licenses), https://www.openssh.com
+Their licenses apply to them. Sunrestic is not affiliated with the restic project.

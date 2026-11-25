@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Only in the full build. Google Play restricts or does not allow these (see BUILDS.md). -->
+
+    <!-- Lists every installed app. Google Play does not allow this for backup apps. -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <!-- Installs restored APKs without root, through Android's installer. Restricted on Google Play. -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- Exact alarms and the one-tap battery dialog. Restricted on Google Play. -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <!-- Not in Google's backup exception. -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+</manifest>

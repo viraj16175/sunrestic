@@ -1,0 +1,20 @@
+Sunrestic backs up your phone to storage that you control, using restic: encrypted, deduplicated snapshots you can also restore without this app.
+
+<b>What it saves</b>
+• Apps (APK, and their data with root), with tags that live in the repository
+• Folders of your choice, restored back to where they came from
+• Contacts, call log, text messages and the wallpaper (experimental, no root)
+
+<b>Where it saves</b>
+SFTP, a folder on the phone, S3-compatible storage, a restic REST server or Backblaze B2. There is no account and no server of ours.
+
+<b>Safety first</b>
+• Restoring app data keeps a safety copy and rolls back if anything fails
+• Retention rules never delete the only copy of an app
+• A "Check everything" page, repository checks, and VPN apps are never stopped during a backup
+
+<b>Daily backup</b>
+Automatic or as a reminder you confirm with your fingerprint, with Wi-Fi and charging conditions, a quick-settings tile and a widget.
+
+<b>Good to know</b>
+App data and some folders need root. Without root you get APKs, folders (with the "All files access" permission) and phone data. The app has no analytics and sends nothing except to your repository.
